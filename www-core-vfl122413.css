@@ -4083,6 +4083,1439 @@ html>body #watch-main-area .watch-tabs a {
   clear: right
 }
 
+#baseDiv {
+    width: 876px;
+}
+
+#watch-vid-title {
+    width: 450px;
+}
+
+#watch-longform-buttons {
+    display: none;
+}
+
+#watch-vid-title h1 {
+    font-size: 18px;
+}
+#watch-this-vid,
+.fl {
+
+    width: 450px;
+    height: 370px;
+}
+
+#watch-player-div {
+    width: 450px;
+    height: 370px;
+}
+
+#watch-this-vid-info {
+    width: 452px;
+}
+
+
+.watch-tabs {
+    width: 452px;
+    background: unset !important;
+}
+.watch-tabs:after {
+    visibility: visible;
+    content: "";
+    position: absolute;
+    width: 452px;
+    margin-left: -30px;
+    margin-top: 30px;
+    border-bottom: 1px #ccc solid;
+}
+
+#watch-other-vids {
+    position: absolute;
+    left: 470px;
+}
+
+#watch-main-area {
+    width: 452px;
+    position: relative;
+    padding: 6px 0 0;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    background: #f6f6f6;
+    border: 1px #ccc solid;
+}
+.watch-tabs .watch-tab {
+    height: 0px;
+    line-height: unset;
+    padding: unset;
+    font-weight: unset;
+
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #000;
+}
+
+html > body #watch-main-area .watch-tabs {
+    margin-top: 28px;
+}
+
+
+.watch-tab {
+    height: 10px;
+    margin-left: 100px;
+}
+
+.watch-tab span:after {
+    border-bottom: 1px dotted #03C;
+}
+
+.watch-tabs {
+    margin-left: 30px;
+
+    margin-top: -4px;
+}
+
+
+
+#watch-tab-favorite {
+
+    margin-top: -20px;
+}
+
+#watch-tab-share {
+    margin-left: 215px;
+    margin-top: -20px;
+}
+
+#watch-tab-flag {
+    width: 99px;
+    margin-left: 300px;
+    margin-top: -20px;
+}
+
+#watch-tab-playlists {
+    margin-left: 103px;
+}
+#watch-action-favorite-link > span:nth-child(2) {
+    visibility: hidden;
+    margin-left: -43px;
+}
+
+#watch-action-favorite-link > span:nth-child(2):after {
+    visibility: visible;
+    content: "Save to Favorites";
+}
+
+#watch-action-favorite-link:before {
+    visibility: visible;
+    display: block;
+    position: absolute;
+    content: '';
+    width: 19px !important;
+    height: 17px !important;
+    margin-left: -9px;
+    background: url("http://web.archive.org/web/20070106235400im_/http://youtube.com/img/icn_fav_reg_19x17.gif");
+}
+
+#watch-action-playlists-link:before {
+    visibility: visible;
+    display: block;
+    position: absolute;
+    content: '';
+    width: 19px !important;
+    height: 17px !important;
+    margin-left: -12px;
+    background: url("http://web.archive.org/web/20070106235400im_/http://youtube.com/img/icn_groups_reg_19x17.gif");
+}
+
+#watch-action-playlists {
+    background: unset;
+}
+
+#watch-action-favorite {
+    background: unset;
+}
+#watch-action-flag {
+    background: unset;
+}
+
+
+#watch-action-share-link:before {
+    visibility: visible;
+    display: block;
+    position: absolute;
+    content: '';
+    width: 19px !important;
+    height: 17px !important;
+    margin-left: -5px;
+    background: url("http://web.archive.org/web/20070106225324im_/http://youtube.com/img/icn_email_reg_19x17.gif");
+}
+
+#watch-action-flag-link:before {
+    visibility: visible;
+    display: block;
+    position: absolute;
+    content: '';
+    width: 19px !important;
+    height: 17px !important;
+    margin-left: 14px;
+    background: url("http://web.archive.org/web/20070106225324im_/http://youtube.com/img/icn_flag_reg_19x17.gif");
+}
+
+#watch-action-share-link > span:nth-child(2) {
+    visibility: hidden;
+    margin-left: -30px;
+}
+
+#watch-action-share-link > span:nth-child(2):after {
+    visibility: visible;
+    content: "Share Video";
+}
+
+#watch-action-flag-link > span:nth-child(2) {
+    visibility: hidden;
+    margin-left: -23px;
+    line-height: 1.4em;
+}
+
+#watch-action-flag-link > span:nth-child(2):after {
+    visibility: visible;
+    content: "Flag as inappropriate";
+}
+
+#watch-action-playlists-link > span:nth-child(2) {
+    visibility: hidden;
+    margin-left: -46px;
+}
+
+#watch-action-playlists-link > span:nth-child(2):after {
+    visibility: visible;
+    content: "Add to Groups";
+}
+
+#watch-action-share-link > span:nth-child(2):before {
+    visibility: visible;
+    display: block;
+    position: absolute;
+    content: '';
+    width: 19px !important;
+    height: 17px !important;
+    margin-left: -7px;
+    margin-top: 4px;
+    background: url("http://web.archive.org/web/20070106214429im_/http://www.youtube.com/img/icn_web_reg_19x17.gif");
+}
+
+#watch-action-playlists-link:after {
+    visibility: visible;
+    content: "Post Video";
+    border-bottom: 1px dotted #03C;
+    margin-left: 35px;
+}
+
+
+#watch-rating-div #ratingWrapper {
+    width: unset;
+    position: absolute;
+    text-align: center;
+    margin-top: 43px;
+    margin-left: 17px;
+    z-index: 950;
+   
+}
+
+#watch-rating-div #ratingWrapper:before {
+    visibility: visible;
+    content: "Rate this video:";
+    position: absolute;
+    width: 100px;
+    left: -12px;
+    top: -20px;
+    text-align: center !important;
+    font-size: 11px;
+}
+
+#defaultRatingMessage {
+    position: absolute;
+    left: -13px;
+    width: 100px;
+    top: 15px;
+    text-align: center;
+}
+#defaultRatingMessage .smallText {
+    font-size: 11px;
+    color: black;
+}
+
+#watch-views-div {
+
+    position: absolute;
+
+    text-align: left;
+    width: 450px;
+    height: 16px;
+    border-bottom: 1px #ccc solid;
+    margin: 4px 0 0;
+    padding: 4px 0;
+
+    z-index: 950;
+    /*top: 486px;*/
+    margin-top: 84px;
+}
+
+.watch-tab-contents .watch-tab-body {
+    margin-top: 27px;
+}
+#watch-views {
+    visibility: hidden;
+}
+watch-views:after {
+    visibility: visible;
+}
+#watch-view-count {
+
+    visibility: visible;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #000;
+    margin-left: 4px;
+    position: absolute;
+    margin-top: -4px;
+}
+
+#watch-view-count:before {
+    visibility: visible;
+    content: "Views:";
+    font-weight: normal;
+    margin-right: 4px;
+}
+
+#watch-share-services-collapsed > div:nth-child(1):after {
+    visibility: visible;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    content: "Comments: ";
+    z-index: 950;
+    left: 113px;
+    top: 69px;
+}
+
+#watch-share-services-collapsed > div:nth-child(1) > div:nth-child(1):after {
+    visibility: visible;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    content: "1009";
+    font-weight: bold;
+    z-index: 950;
+    left: 181px;
+    top: 69px;
+}
+
+#watch-share-services-collapsed > div:nth-child(1):before {
+    visibility: visible;
+    position: absolute;
+    content: "|";
+    z-index: 950;
+    left: 87px;
+    top: 68px;
+    vertical-align: middle;
+    color: #ccc;
+    display: inline;
+}
+
+#watch-share-services-collapsed > div:nth-child(2):after {
+    visibility: visible;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    content: "Favorited: \00a0 \00a0 \00a0 \00a0 \00a0  \00a0 \00a0 times";
+    z-index: 950;
+    left: 240px;
+    top: 69px;
+}
+
+#watch-share-services-collapsed > div:nth-child(2) > div:nth-child(1):after {
+    visibility: visible;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    content: "699";
+    z-index: 950;
+    left: 296px;
+    top: 69px;
+    font-weight: bold;
+}
+
+#watch-share-services-collapsed > div:nth-child(2):before {
+    visibility: visible;
+    position: absolute;
+    content: "|";
+    z-index: 950;
+    left: 214px;
+    top: 68px;
+    vertical-align: middle;
+    color: #ccc;
+    display: inline;
+}
+
+#watch-share-services-collapsed > div:nth-child(3):after {
+    visibility: visible;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-decoration: underline;
+    color: #03c;
+    content: "more stats...";
+    z-index: 950;
+    left: 382px;
+
+    top: 69px;
+}
+
+#watch-share-services-collapsed > div:nth-child(3):before {
+    visibility: visible;
+    position: absolute;
+    content: "|";
+    z-index: 950;
+    left: 355px;
+    top: 68px;
+    vertical-align: middle;
+    color: #ccc;
+    display: inline;
+}
+
+#watch-stats-data-wrapper {
+    display: none;
+}
+
+#watch-video-responses-children {
+    /*display: block;*/
+}
+
+.yt-uix-expander-arrow {
+    display: none;
+}
+.expander-small {
+    border-top: unset;
+    margin-top: unset;
+    padding-top: unset;
+}
+
+.yt2009-video-response-expander {
+    background: #EEE;
+    margin: 10px 0 6px;
+    padding: 4px;
+}
+
+#watch-video-responses-children {
+    margin: unset;
+    padding: unset;
+
+    width: 450px;
+    height: 90px;
+}
+
+.video-bar-container-box {
+    width: 350px;
+}
+
+#watch-video-responses-children .video-bar-item {
+    width: 80px;
+    height: 91px;
+}
+
+#watch-video-responses-children .video-bar-item:nth-child(n + 1) {
+    width: 100px;
+    height: 91px;
+}
+
+.video-bar-item .hLink {
+    text-decoration: underline;
+    position: absolute;
+    width: 100px;
+    margin-left: -57px;
+}
+
+.video-bar-item .video-time {
+    display: none;
+}
+
+.video-bar-item .v90WrapperOuter {
+    margin: unset;
+    padding: unset;
+    border: 3px solid #DDD;
+    width: 80px;
+    height: 60px;
+}
+
+#watch-video-responses-children .video-bar-item .v90WideEntry {
+    padding: unset;
+}
+
+.video-bar-item .v90WrapperInner {
+    margin: unset;
+    padding: unset;
+    border: none;
+    width: 80px;
+    height: 60px;
+}
+
+.video-bar-item .v90WrapperInner .video-thumb-link .vimg90 {
+    margin: unset;
+    padding: unset;
+    width: 80px;
+    height: 60px;
+}
+
+.video-bar-item {
+
+    padding: unset;
+    margin: unset;
+}
+
+#watch-video-responses-none {
+    padding-top: 35px;
+}
+
+a .video-bar-left-arrow {
+    background: url("http://web.archive.org/web/20070110104150im_/http://www.youtube.com/img/LeftSingleArrowOff.gif") no-repeat scroll;
+    margin-top: 12px;
+}
+
+a .video-bar-right-arrow {
+    background: url("http://web.archive.org/web/20070110104150im_/http://www.youtube.com/img/RightSingleArrowOff.gif") no-repeat scroll;
+    margin-top: 12px;
+}
+
+
+#watch-comment-panel > h4:nth-child(2) {
+    font-size: 14px;
+}
+
+
+.yt-uix-expander-head.yt2009-video-response-expander:after {
+    visibility: visible;
+    content: "Post a Video Response";
+    position: absolute;
+
+    left: 323px;
+    color: #03c;
+    text-decoration: underline;
+}
+
+a.smallText:nth-child(2) {
+    visibility: hidden;
+    margin-left: -43px;
+}
+
+a.smallText:nth-child(2):after {
+    visibility: visible;
+    content: "Post a text comment";
+    position: absolute;
+    font-size: 12px;
+    text-decoration: underline;
+    margin-left: 222px;
+}
+
+#watch-comment-count:after {
+    visibility: visible;
+    content: inherit;
+}
+
+.watch-comment-head,
+.watch-comment-head-hidden {
+    background-color: #EEE;
+    padding: 4px;
+}
+
+#watch-comment-panel > div:nth-child(3):before {
+    visibility: visible;
+    display: block;
+    content: "Most Recent \00a0 ...\00a0 \00a0 1 \00a0 2 \00a0 3 \00a0 4 \00a0 5 \00a0 6 \00a0 7 \00a0 8 \00a0  \00a0 ... \00a0  \00a0 Oldest";
+    font-size: 11px;
+    font-weight: bold;
+    text-align: center;
+    position: absolute;
+    padding: 3px;
+
+    margin-top: -32px;
+    left: 4px;
+    width: 445px;
+    border: 1px solid #CCC;
+}
+
+#watch-comment-panel > div:nth-child(3):after {
+    visibility: visible;
+    display: block;
+    content: " 2 \00a0 3 \00a0 4 \00a0 5 \00a0 6 \00a0 7 \00a0 8 \00a0  \00a0 ... \00a0  \00a0 Oldest";
+    position: absolute;
+    margin-top: -28px;
+    left: 206px;
+    color: #03c;
+    text-decoration: underline;
+    font-size: 11px;
+    font-weight: bold;
+    text-align: center;
+    z-index: 965;
+}
+
+#watch-comment-panel > h4:nth-child(2) {
+    margin-bottom: 35px;
+}
+
+.watch-comment-entry {
+    font-size: unset;
+}
+.watch-comment-auth {
+    text-decoration: underline;
+}
+.watch-comment-time {
+    font-size: 11px;
+    color: black;
+}
+
+.watch-comment-entry {
+    margin: 6px 0 20px;
+    padding: unset;
+    border: unset;
+}
+
+.watch-comment-action {
+    visibility: hidden;
+    display: block;
+    position: absolute;
+    text-align: right;
+    margin-left: 343px;
+    margin-top: 30px;
+}
+
+.watch-comment-action:before {
+    visibility: visible;
+    position: absolute;
+    margin-left: 65px;
+    content: "(\00a0 \00a0 \00a0 \00a0 \00a0 \00a0 \00a0 \00a0 \00a0 )";
+}
+
+.watch-comment-action:after {
+    visibility: visible;
+    content: "Reply";
+    color: #03C;
+    border-bottom: 1px dotted #03C;
+}
+
+.watch-comment-voting {
+    display: none;
+}
+
+.watch-comments-footer-td {
+    color: #03C;
+    text-decoration: underline;
+    font-weight: bold;
+    padding-left: 53px;
+    margin-top: 30px;
+    position: absolute;
+    white-space: nowrap;
+    overflow: hidden;
+    height: 20px;
+}
+
+#watch-comments-footer-table {
+    margin-bottom: 50px;
+    border: none;
+}
+
+#watch-comments-show-more-button {
+    visibility: hidden;
+    margin-left: -64px;
+    position: absolute;
+    left: 60px;
+    top: -30px;
+    z-index: 965;
+}
+
+#watch-comments-show-more-button:before {
+    visibility: visible;
+    display: block;
+    content: " 2 \00a0 3 \00a0 4 \00a0 5 \00a0 6 \00a0 7 \00a0 8 \00a0  \00a0 ... \00a0  \00a0 Oldest";
+    position: absolute;
+    margin-top: 34px;
+    left: 207px;
+    color: #03c;
+    text-decoration: underline;
+    font-size: 11px;
+    font-weight: bold;
+    text-align: center;
+    z-index: 965;
+}
+
+#watch-comments-show-more-button:after {
+    visibility: visible;
+    display: block;
+    content: "Most Recent \00a0 ...\00a0 \00a0 1 \00a0 2 \00a0 3 \00a0 4 \00a0 5 \00a0 6 \00a0 7 \00a0 8 \00a0  \00a0 ... \00a0  \00a0 Oldest";
+    font-size: 11px;
+    font-weight: bold;
+    text-align: center;
+    position: absolute;
+    padding: 3px;
+
+    margin-top: 7px;
+    left: 5px;
+    width: 445px;
+    border: 1px solid #CCC;
+}
+
+td.watch-comments-footer-td:nth-child(1) > strong:nth-child(1) {
+    visibility: hidden;
+    margin-left: -50px;
+}
+
+td.watch-comments-footer-td:nth-child(1) > strong:nth-child(1):before {
+    visibility: visible;
+    margin-right: -53px;
+    content: "View all\00a0";
+}
+
+#watch-comments-show-more-td {
+    width: 445px;
+}
+
+#watch-comment-count {
+    visibility: visible;
+}
+
+td.watch-comments-footer-td:nth-child(1) {
+    padding-top: 32px;
+}
+
+
+#watch-comment-post {
+    padding-top: 30px;
+}
+
+
+.yt2009-signin-hide {
+    display: none;
+}
+#watch-channel-brand-cap {
+    display: none;
+}
+#watch-channel-vids-div {
+    margin: unset;
+    padding: unset;
+    border: unset;
+    background: unset;
+    padding: 6px;
+    border: 1px solid #CCC;
+}
+
+
+
+.fn {
+    font-size: 11px;
+}
+.fn:before {
+
+    visibility: visible;
+    content: "From ";
+    font-weight: bold;
+    font-size: 11px;
+    color: #333;
+}
+
+#watch-channel-icon {
+    display: none;
+}
+
+.watch-video-added {
+    font-size: 11px;
+    color: black;
+    font-weight: bold;
+}
+.watch-video-added:before {
+    visibility: visible;
+    content: "Added ";
+    font-weight: bold;
+    font-size: 11px;
+    color: #333;
+}
+
+#watch-channel-vids-div {
+    margin-bottom: 11px;
+}
+
+/*
+    
+    #watch-related-videos-panel > h2:nth-child(1) {
+       background: url("https://i.imgur.com/qXlvINH.png");
+       width: 77px;
+       height: 35px;
+       position: absolute;
+       margin-top: -26px;
+        
+    }
+    
+    #watch-related-videos-panel > h2:nth-child(1) > span:nth-child(2) {
+        visibility: hidden;
+    }
+    
+   
+    div#watch-related-videos-panel.watch-discoverbox-wrapper.yt-uix-expander h2.yt-uix-expander-head.yt-uix-expander-collapsed
+     {
+        opacity: 0;
+        margin-top: unset;
+    }
+    
+    
+  
+    #watch-channel-videos-panel > h2:nth-child(1) {
+        
+        font-size: 10px;
+        position: absolute;
+        width: 149px;
+        height: 35px;
+        left: 76px;
+        background: url("https://i.imgur.com/ejmRAoN.png");
+        color: transparent;
+    }
+    
+    div#watch-channel-videos-panel.watch-discoverbox-wrapper.yt-uix-expander h2.yt-uix-expander-head.yt-uix-expander-collapsed 
+    {
+        opacity: 0;
+        
+    }
+    
+    #quicklistDiv {
+        position: absolute;
+        background: url("https://i.imgur.com/teYrgRq.png");
+        height: 26px;
+        width: 300px;
+        margin-bottom: -4px;
+        z-index: -1;
+    }*/
+#watch-related-videos-panel > h2:nth-child(1) {
+    background: url("https://i.imgur.com/bH813Oe.png");
+    width: 302px;
+    height: 35px;
+    margin-left: -1px;
+    position: absolute;
+    margin-top: -26px;
+    pointer-events: none;
+}
+
+#watch-related-videos-panel > h2:nth-child(1) > span:nth-child(2) {
+    visibility: hidden;
+}
+
+
+div#watch-related-videos-panel.watch-discoverbox-wrapper.yt-uix-expander h2.yt-uix-expander-head.yt-uix-expander-collapsed {
+    opacity: 0;
+    margin-top: unset;
+}
+
+
+
+#watch-channel-videos-panel > h2:nth-child(1) {
+
+    font-size: 10px;
+    position: absolute;
+    width: 302px;
+    height: 35px;
+    margin-left: -1px;
+    z-index: 950;
+    background: url("https://i.imgur.com/IQlc1fp.png");
+    color: transparent;
+}
+
+div#watch-channel-videos-panel.watch-discoverbox-wrapper.yt-uix-expander h2.yt-uix-expander-head.yt-uix-expander-collapsed {
+    opacity: 0;
+}
+
+#watch-related-vids-body {
+    margin-top: 37px;
+}
+#watch-channel-vids-body {
+    margin-top: 26px;
+}
+
+
+
+#watch-channel-videos-panel {
+    position: absolute;
+    width: 300px !important;
+}
+
+.yt2009-exp-related-mark .video-entry:nth-of-type(1n+16) {
+  
+   position: absolute;
+   left: 315px;
+   top: 30px;
+   width: 90px;
+   
+} 
+    .yt2009-exp-related-mark .video-entry:nth-of-type(1n+16) .abs-views {
+  
+   display: none;
+   
+} 
+    
+    .yt2009-exp-related-mark .video-entry:nth-of-type(1n+16) .v90WrapperOuter {
+   border: none;
+   width: 90px;
+   
+} 
+    
+    .yt2009-exp-related-mark .video-entry:nth-of-type(1n+16) .v90WrapperInner {
+
+   width: 90px;
+   height: 70px;
+} 
+    .yt2009-exp-related-mark .video-entry:nth-of-type(1n+16) .vimg90 {
+
+   width: 90px;
+   margin-top: unset;
+} 
+    
+    .yt2009-exp-related-mark .video-entry:nth-of-type(1n+16) .addtoQL90 {
+
+   display: none;
+} 
+    
+    .yt2009-exp-related-mark .video-entry:nth-of-type(1n+16) .video-mini-title {
+
+   font-size: 11px;
+   text-decoration: underline;
+   color: #03c;
+   width: 90px;
+   max-height: 38px;
+   overflow: hidden;
+   
+   position: absolute;
+   left: 2px;
+   top: 74px;
+        
+} 
+    .yt2009-exp-related-mark .video-entry:nth-of-type(1n+16) .video-username a{
+   
+   font-size: 11px;
+   text-decoration: underline;
+   color: #333;
+   left: 33px;
+   position: absolute;
+   top: 132px;
+   width:61px;
+   height: 25px;
+   text-overflow: ellipsis;
+   overflow: hidden;
+   line-height: 1.1em;
+   
+   
+   
+        
+} 
+    
+    .yt2009-exp-related-mark .video-entry:nth-of-type(1n+16) .video-username:before {
+    content: "From: ";
+    visibility: visible;
+   font-size: 11px;
+   text-decoration: none;
+   color: #666;
+   left: 2px;
+   position: absolute;
+   top: 132px;
+        
+} 
+    
+    .yt2009-exp-related-mark .video-entry:nth-of-type(1n+16) .video-view-count {
+
+   display: none;
+} 
+    
+    .yt2009-exp-related-mark .video-entry:nth-of-type(1n+16) .video-time a {
+
+  
+   position: absolute;
+   left: -2px;
+   top: 116px;
+   font-size: 11px;
+   color: #000;
+   opacity: 255;
+   font-weight: bold;
+   background: unset;
+} 
+    
+    
+    
+    #watch-other-vids:before {
+       visibility: visible;
+        content: "Director Videos";
+        position: absolute;
+        left: 315px;
+        width: 90px;
+        height: 21px;
+        margin-bottom: 6px;
+       text-align: center;
+       font-weight: 700;
+       color: #999;
+       padding: 3px 0;
+        
+} 
+    
+    .yt2009-exp-related-mark .video-entry:nth-of-type(1n+17) {
+   position: absolute;
+   margin-top: 160px;
+} 
+    
+    .yt2009-exp-related-mark .video-entry:nth-of-type(1n+18) {
+        margin-top: 320px;
+   
+} 
+    
+    .yt2009-exp-related-mark .video-entry:nth-of-type(1n+19) {
+        margin-top: 480px;
+   
+} 
+    
+    .yt2009-exp-related-mark .video-entry:nth-of-type(1n+20) {
+        display: none;
+   
+} 
+
+#recent_comments > div:nth-child(3) > div:nth-child(2) > a:nth-child(1) {
+    text-decoration: underline;
+}
+
+#recent_comments > div:nth-child(3) > div:nth-child(2) > a:nth-child(2) {
+    visibility: hidden;
+    margin-right: -6px;
+}
+
+#recent_comments > div:nth-child(3) > div:nth-child(2) > a:nth-child(2):before {
+    visibility: visible;
+    content: "Login";
+    position: absolute;
+    text-decoration: underline;
+}
+
+.watch-discoverbox-body {
+    padding: 6px;
+    padding-top: 32px;
+    padding-bottom: 27px;
+}
+
+.watch-discoverbox-body:before {
+    content: "Showing 1-20 of 65160";
+    position: absolute;
+    margin-top: -15px;
+    width: 280px;
+    height: 15px;
+    padding: 3px;
+    font-size: 11px;
+    background: #EEE;
+}
+
+.watch-discoverbox-body:after {
+    content: "Showing 1-20 of 65160";
+    position: absolute;
+    width: 280px;
+    height: 15px;
+    padding: 3px;
+    font-size: 11px;
+    background: #EEE;
+}
+
+
+
+.watch-discoverbox {
+    background: #EEE;
+    margin-top: 6px;
+    height: 405px !important;
+}
+#watch-related-videos-panel .yt-uix-expander-head:before {
+    visibility: visible;
+    content: "See All Videos";
+    font-size: 11px;
+    position: absolute;
+    margin-top: 47px;
+    margin-left: 218px;
+    z-index: 950;
+    color: #03c;
+    font-weight: normal;
+    width: 80px;
+    text-decoration: underline;
+    pointer-events: none;
+}
+#watch-related-videos-panel .yt-uix-expander-head:after {
+    visibility: visible;
+    content: "See All Videos";
+    font-size: 11px;
+    position: absolute;
+    margin-top: 477px;
+    margin-left: 103px;
+    z-index: 950;
+    color: #03c;
+    font-weight: normal;
+    width: 80px;
+    text-decoration: underline;
+    pointer-events: none;
+}
+
+
+
+
+#watch-channel-vids-body {
+    position: relative;
+    z-index: 950;
+}
+
+
+
+
+/*
+#watch-video-details-inner-less {
+    display: none !important;
+}
+#watch-video-details-inner-more {
+    display: block !important;
+}
+#watch-video-details-toggle {
+    display: none;
+
+}
+    
+    .watch-channel-stat {
+        visibility: hidden;
+        font-weight: bold;
+        color: #333333;
+    }
+    .watch-channel-stat:after {
+        visibility: visible;
+        content: "Tags";
+        position: absolute;
+        margin-left: -36px;
+    }
+    
+    #watch-video-tags .hLink {
+        font-size: 11px;
+        color: #333;
+        text-decoration: underline;
+        margin-right: 9px !important;
+    }
+*/
+#watch-video-tags-div {
+    display: block !important;
+}
+
+/*a[title="Flag this comment as Spam"] {
+  visibility: hidden;
+}
+*/
+button.ratingL,
+button.ratingCapsL {
+    background-image: url("https://i.imgur.com/e4ikVo1.png");
+    background-color: unset;
+}
+
+.master-sprite {
+
+    /*background: url("https://yt2009.aesthetiful.com/master-vfl121679.png");*/
+    background-image: url("https://i.imgur.com/e4ikVo1.png");
+}
+
+
+.yt2009-signin-hide {
+    display: none;
+}
+#watch-channel-brand-cap {
+    display: none;
+}
+#watch-channel-vids-div {
+
+    padding: unset;
+    border: unset;
+    background: unset;
+    padding: 0px;
+    border: 1px solid #CCC;
+}
+
+#subscribeDiv {
+    visibility: hidden;
+}
+
+#subscribeDiv:before {
+    visibility: visible;
+    display: block;
+    float: right;
+    content: '';
+    text-align: center;
+    width: 100px !important;
+    height: 16px !important;
+
+    background: url("http://web.archive.org/web/20070105084545im_/http://www.youtube.com/img/btn_subscribe_sm_yellow_99x16.gif");
+
+    left: 180px;
+    top: 10px;
+}
+#subscribeDiv:after {
+    visibility: visible;
+    content: "to user";
+    font-size: 11px;
+    position: absolute;
+    width: 40px;
+    left: 222px;
+    top: 25px;
+}
+.fn {
+    font-size: 12px;
+    text-decoration: underline;
+    position: absolute;
+    left: 42px;
+    top: 22px;
+}
+.fn:before {
+
+    visibility: visible;
+    content: "From ";
+    font-weight: bold;
+    font-size: 11px;
+    color: #333;
+    position: absolute;
+    left: -36px;
+}
+
+.fn:after {
+    visibility: visible;
+    display: block;
+    font-size: 11px;
+    content: "Provided By:";
+    color: #333333;
+    position: absolute;
+    left: -36px;
+    top: 16px;
+}
+
+#watch-video-details:before {
+    visibility: visible;
+    display: block;
+    content: "user";
+    position: absolute;
+    color: #03C;
+    font-size: 11px;
+    text-decoration: underline;
+    left: 6px;
+    top: 54px;
+}
+
+#watch-video-details {
+    margin-top: 30px;
+}
+
+#watch-channel-icon {
+    display: none;
+}
+
+.watch-video-added {
+    font-size: 11px;
+    color: black;
+    font-weight: bold;
+    position: absolute;
+    top: 6px;
+    left: 6px;
+}
+.watch-video-added:before {
+    visibility: visible;
+    content: "Added ";
+    font-weight: bold;
+    font-size: 11px;
+    color: #333;
+}
+
+
+#watch-video-details-inner-less {
+    display: none !important;
+}
+#watch-video-details-inner-more {
+    display: block !important;
+}
+#watch-video-details-toggle {
+    display: none;
+}
+
+.watch-channel-stat {
+    visibility: hidden;
+    font-weight: bold;
+    color: #333333;
+}
+.watch-channel-stat:after {
+    visibility: visible;
+    content: "Tags";
+    position: absolute;
+    margin-left: -36px;
+}
+
+#watch-video-tags .hLink {
+    font-size: 11px;
+    color: #333;
+    text-decoration: underline;
+    margin-right: 9px !important;
+}
+
+
+#watch-video-tags-div {
+    display: block !important;
+}
+
+#watch-video-tags {
+    width: 248px;
+}
+
+#watch-video-tags-div {
+    word-break: initial;
+}
+
+#watch-url-div {
+    border: unset !important;
+    padding: unset !important;
+    margin: unset !important;
+    padding-top: 1px !important;
+}
+
+
+label[for=watch-url-field] {
+    font-weight: bold !important;
+    color: #333333 !important;
+    font-size: 12px !important;
+    margin-left: -14px;
+}
+
+
+#watch-url-field {
+    position: absolute;
+    left: 43px;
+    width: 230px !important;
+    font-size: 10px;
+}
+
+label[for=embed_code] {
+    font-weight: bold !important;
+    color: #333333 !important;
+
+    margin-left: -9px;
+}
+
+#watch-embed-div {
+    margin-top: 0px;
+}
+
+#embed_code {
+    position: absolute;
+    left: 43px;
+    width: 230px !important;
+}
+
+
+
+
+
+.video-mini-title {
+    text-decoration: underline;
+    margin-bottom: 15px;
+}
+
+/*a[title="Flag this comment as Spam"] {
+  visibility: hidden;
+}
+*/
+.video-entry .hLink {
+    text-decoration: underline;
+    position: absolute;
+    width: 100px;
+    margin-left: -57px;
+}
+
+
+.video-entry .video-time a {
+
+    /* 
+   left: 30px;
+   margin-left: px;
+   z-index: 955;
+   font-size: 11px;
+   color: #000;
+   opacity: 255;
+   font-weight: bold;
+   background: unset;*/
+}
+
+
+.video-entry .v90WrapperOuter {
+    margin: unset;
+    padding: unset;
+    border: 1px solid #DDD;
+    width: 90px;
+    height: 70px;
+}
+
+.video-entry .v90WideEntry {
+    padding: unset;
+}
+
+.video-entry .v90WrapperInner {
+    margin: unset;
+    padding: unset;
+    border: none;
+    width: 90px;
+    height: 70px;
+}
+
+.video-entry .v90WrapperInner .video-thumb-link .vimg90 {
+    margin: unset;
+    padding: unset;
+    width: 90px;
+    height: 70px;
+}
+
+.video-entry {
+
+    padding: unset;
+    margin: unset;
+}
+
+.video-username a {
+    text-decoration: underline;
+    color: #333;
+}
+
+.video-username:before {
+    visibility: visible;
+
+    content: "From: "
+}
+
+
+.abs-views {
+    display: block;
+    font-size: 11px;
+}
+
+.abs-views:before {
+    content: "Views: ";
+    color: #666;
+    margin-left: 9px;
+}
+
+.video-view-count {
+    display: none;
+}
+
+.addtoQL90 {
+    margin-top: -34px;
+}
+}
+
+
 #download-panel {
   text-align: center
 }
