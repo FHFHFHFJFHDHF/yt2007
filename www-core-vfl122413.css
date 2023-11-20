@@ -313,6 +313,308 @@ button.ratingCapsVS-2\.0 {
   background-position: -36px -379px
 }
 
+    body{
+        position: relative;
+    width: 885px;
+    margin-left: auto;
+    margin-right: auto;
+   
+    }
+    
+    #baseDiv {
+
+        position: relative;
+    width: 874px;
+    margin-left: auto;
+    margin-right: auto;
+  
+    }
+    
+    #homepage-side-content
+    {
+        margin-top: 80px;
+        margin-left: 575px;
+        position: absolute;
+        
+    }
+    
+.utility-item {
+    line-height: unset;
+    height: 12px;
+    padding-bottom: 27px;
+    position: relative;
+    left: 325px;
+    bottom: 20px;
+    font-size: 12px;
+    /*text-decoration: underline;*/
+}
+/*    
+    button {
+  visibility: hidden;
+}
+button:after {
+  content:'goodbye'; 
+  visibility: visible;
+  display: block;
+  position: absolute;
+  background-color: red;
+  padding: 5px;
+  top: 2px;
+}*/
+
+#masthead-utility span.utility-item a
+{
+    text-decoration: underline;
+}    
+
+#masthead-utility span.utility-item a strong
+{
+    visibility: hidden;
+}
+    
+
+#masthead-utility span.utility-item a strong:after
+{
+   white-space: nowrap;
+   overflow: hidden; 
+  content: "Sign Up";
+  visibility: visible;
+}
+    
+#masthead-utility span.utility-item span.utility-joiner
+{
+    /*color: #03c;*/
+    visibility: hidden;
+} 
+
+#masthead-utility span.utility-item span.utility-joiner:after
+{
+  /*
+  position: relative;
+  white-space: nowrap;
+  overflow: hidden; 
+  content: "\00a0 | \00a0 My Account \00a0 | \00a0 History \00a0 | \00a0 QuickList (0) \00a0 | \00a0 Help \00a0 | \00a0";
+  */
+  content: "|";
+  margin-left: -12px;
+  visibility: visible;
+}
+
+    
+#masthead-container,
+#masthead {
+    width: 875px;
+    height: 115px;
+    margin-top: 7px;
+    margin-bottom: -4px;
+    border-bottom: 0;
+}
+
+#masthead #logo {
+    width: 123px !important;
+    height: 63px !important;
+    background: url("http://web.archive.org/web/20070405153721im_/http://www.youtube.com/img/pic_youtubelogo_123x63.gif");
+}
+
+#masthead-search {
+    height: 20px;
+    float: right;
+    background: none;
+    border: none;
+    margin-top: 15px;
+}
+
+#masthead .search-form {
+    height: 20px;
+}
+
+#masthead-search-term {
+    max-height: 18px;
+    height: 18px !important;
+    padding: 0px 0px !important;
+    width: 250px !important;
+    
+}
+   
+#masthead .search-term {
+    border-color: #7F9DB9;
+}
+
+    
+#masthead .search-form .yt-button {
+    font-family: "MS Shell Dlg \32 "; 
+    font-size: unset;
+    
+    margin: unset;
+    margin-top: 0px;
+    margin-left: 5px;
+}
+    
+#masthead-search a {
+    background: #F5F5F1;
+    padding: 0px 6px;
+    border: 1px solid #647D9E;
+    border-radius: 3px;
+    height: 20px !important;
+}
+
+#masthead-search a span {
+    font-weight: normal !important;
+    color: black;
+    padding: 1px 3px;
+    position: relative;
+    top: -2px;
+}
+   
+#masthead-nav-main {
+    text-align: center;
+    margin-top: 10px;
+}
+
+#masthead-nav-main a[href="/"] {
+    display: none;
+}
+
+#masthead-nav-main a[href="/videos"],
+#masthead-nav-main a[href="/channels"] {
+    display: inline-block;
+    width: 248px;
+    height: 28px;
+    background-image: url("http://web.archive.org/web/20070331124118im_/http://www.youtube.com/img/tab_videos_118x28.gif"), url("http://web.archive.org/web/20070331132914im_/http://youtube.com/img/tab_categories_118x28.gif");
+    background-repeat: no-repeat, no-repeat;
+    background-position: left, 124px;
+    color: transparent;
+    margin-right: -4px;
+}
+
+#masthead-nav-main a[href="/videos"] {
+    margin-left: -60px;
+}
+
+#masthead-nav-main a[href="/channels"] {
+    background-image: url("http://web.archive.org/web/20070331132914im_/http://youtube.com/img/tab_channels_118x28.gif"), url("http://web.archive.org/web/20070331132914im_/http://youtube.com/img/tab_community_118x28.gif");
+}
+
+#masthead-end {
+    height: 24px;
+    background: url("http://web.archive.org/web/20070328224609im_/http://www.youtube.com/img/pic_globalnav_gradation_875x24.png");
+    background-repeat: no-repeat;
+}
+
+#masthead-nav-user {
+    width: 135px;
+    font-weight: unset;
+}
+
+#masthead-nav-user #quicklist-nav,
+#masthead-nav-user a[href*="history"] {
+    display: none;
+    }
+    
+    
+
+    #masthead-nav-user a[href*="subscriptions"]
+{
+    display: none;
+    }
+
+    
+    
+
+#masthead-nav-user a[href*="upload"] {
+    background: url("http://web.archive.org/web/20070331132044im_/http://www.youtube.com/img/pic_upload_130x28.gif");
+    border: none;
+    color: transparent;
+    margin-left: 5px;
+    width: 132px;
+    height: 28px;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+}
+    
+    
+    
+    
+    
+#footer {
+    clear: both;
+    width: 875px;
+    margin-top: 12px;
+    background: #EEE;
+    border-top: 1px solid #CCC;
+    border-bottom: 1px solid #CCC;
+    padding: 8px 0px;
+}
+
+#footer .links th {
+    font-weight: bold;
+    font-size: 11px;
+    color: #333;
+}
+
+
+
+
+#footer .links td {
+    text-decoration: underline;
+}
+
+#footer .search-term { 
+    padding: unset;
+    
+    
+    width: 250px;
+    color: #000000;
+    font-size: 12px;
+}
+
+.search {
+    margin-top: -8px;
+}
+
+.search > form:nth-child(1) > a:nth-child(3) {
+    font-family: "MS Shell Dlg \32 ";
+    font-weight: normal !important;
+    color: black;
+    background: unset;
+    border: 1px solid #647D9E;
+    border-radius: 3px;
+    margin-top: 0px;
+    margin-left: 5px;
+   
+    position: relative;
+    top: 2px;
+    width: 38px;
+    height: 19px;
+}
+
+#recommended-loading-sprite
+{
+    margin-left: -55px;
+}
+
+.yt-button span {
+    position: relative;
+    top: -2px;
+
+}
+
+.region-and-language-pickers {
+    visibility: hidden;
+    margin-top: -58px;
+}
+
+#copyright {
+    visibility: hidden;
+    position: absolute;
+    left: 257px;
+}
+
+#copyright:after {
+    visibility: visible;
+    content: "Copyright Â© 2006 YouTube, Inc.";
+}
+}
 button.ratingCapsVS-2\.5 {
   background-position: -24px -395px
 }
