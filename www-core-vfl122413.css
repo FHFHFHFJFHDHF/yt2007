@@ -3282,6 +3282,335 @@ a:hover .video-bar-right-arrow {
 .tooltip-wrapper {
   position: relative
 }
+a.notif-count.hid {
+    display: block;
+    position: absolute;
+    visibility: hidden;
+    width: 10px;
+    z-index: 950;
+    top: 108px;
+    left: -53px;
+    font-size: 11px;
+}
+a.notif-count.hid:after {
+
+    visibility: visible;
+
+    content: "Inbox";
+}
+
+#masthead-nav-user a[href*="subscriptions"] {
+    display: block;
+    font-size: 11px;
+    text-decoration: underline;
+
+    position: absolute;
+    top: 119px;
+    left: 790px;
+    z-index: 950;
+}
+
+#masthead-nav-user a[href*="subscriptions"]:before {
+    visibility: visible;
+    display: inline-block;
+    position: absolute;
+    z-index: 950;
+    text-decoration: none;
+    right: 69px;
+    color: black;
+    content: "-";
+}
+
+
+#feedmodule-REC {
+    width: 555px;
+}
+
+#REC-titlebar {
+    margin-top: -24px;
+}
+
+
+#REC-titlebar:after {
+    content: "Director Videos";
+    color: #999;
+    font-size: 12px;
+    font-weight: bold;
+    visibility: visible;
+}
+
+
+
+#feed_recommended-content {
+    border: none;
+    margin-top: 6px;
+    text-align: left;
+}
+
+.feedmodule-data .grid-view {
+    padding-left: unset;
+    padding-right: unset;
+}
+
+#feedmodule-REC .video-entry.yt-uix-hovercard {
+    margin: 0;
+    width: 82px;
+    height: unset;
+    border: none;
+}
+#feedmodule-REC .video-cell {
+    margin-left: 26px;
+    margin-right: -29px;
+}
+#feedmodule-REC .video-cell:nth-of-type(1n+5) {
+    display: none;
+}
+
+#feedmodule-REC .vimg120 {
+    visibility: visible;
+    display: block;
+    border: 1px solid #ccc;
+    width: 80px;
+    height: 80px;
+}
+#feedmodule-REC .v120WrapperInner {
+    visibility: hidden;
+    border: none;
+    height: unset;
+    width: unset;
+    margin: 0;
+}
+#feedmodule-REC .v120WrapperOuter {
+    border: 1px solid #ccc;
+    width: unset;
+}
+
+#feedmodule-REC .video-main-content {
+    margin-left: -12px;
+    width: 100px;
+    height: 24px;
+}
+
+#feedmodule-REC .video-title {
+    font-size: 10px;
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bold;
+    overflow: hidden;
+    height: 23px;
+}
+
+#feedmodule-REC .video-facets {
+    display: none;
+}
+
+.feedmodule-anchor {
+    margin-bottom: 15px;
+}
+
+#feedmodule-POP {
+    display: none;
+}
+
+#feedmodule-PRO {
+    display: none;
+}
+
+.fm2-title-border-box-gray {
+    background-color: #CCC;
+    margin: 0;
+    padding: 0;
+    margin-bottom: -1px;
+}
+
+
+
+#feedmodule-TOP {
+    width: 555px;
+}
+
+#feed_top_videos-content {
+    background-color: #EEE;
+}
+
+
+.feedmodule-data {
+    padding: 0;
+}
+.feeditem-compressed-category-title {
+    display: none;
+}
+.feeditem-compressed {
+    padding: 10px 0px;
+    border-bottom: 1px dashed #999;
+    width: 541px;
+    margin: 0;
+}
+
+.feedmodule-singleform-info .video-title {
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: underline;
+    width: 400px;
+    /*optional*/
+    /*height: 96px;*/
+    height: 52px;
+}
+
+.feedmodule-updown {
+    display: none;
+}
+.fm2-icon {
+    display: none;
+}
+
+
+.fm2-title {
+    font-size: 14px;
+}
+
+#feedmodule-TOP .fm2-title {
+    visibility: hidden;
+    padding-top: 4px;
+    padding-left: 5px;
+}
+
+#statmodules_inbox-titleText {
+    position: absolute;
+    padding-top: 4px;
+}
+
+#feedmodule-TOP .fm2-title:after {
+    visibility: visible;
+    content: "Featured Videos";
+    margin-left: -97px;
+}
+
+.statModule-titleText {
+    font-size: 14px;
+    padding-left: 5px;
+    position: relative;
+}
+
+
+.feedmodule-preamble {
+    float: right;
+    padding: 1px 10px 0px 0px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #333;
+    text-decoration: underline;
+}
+.feedmodule-preamble a {
+    visibility: hidden;
+}
+.feedmodule-preamble a:after {
+    visibility: visible;
+    content: "See More Videos";
+    color: #03c;
+}
+
+.video-time {
+    /*To-do*/
+}
+
+
+
+
+#feedmodule-TOP .vimg120 {
+    visibility: visible;
+    border: 1px solid #ccc;
+    width: 122px;
+    height: 110px;
+}
+#feedmodule-TOP .v120WrapperInner {
+
+    border: none;
+    height: unset;
+    width: unset;
+    margin: 0;
+}
+
+
+#feedmodule-TOP .video-main-content {
+    margin-left: -12px;
+    width: 100px;
+    height: 24px;
+}
+
+#feedmodule-TOP:after {
+    visibility: visible;
+    background-color: #CCC;
+    color: #03C;
+    text-decoration: underline;
+    border: 1px solid transparent;
+    position: absolute !important;
+    margin-top: -7px;
+    padding-left: 457px;
+    padding-top: 3px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+
+
+    text-align: right;
+    content: "See More Videos";
+}
+
+
+.utility-item .yt-menulink-menu {
+    position: absolute;
+    border: unset;
+    padding: unset;
+    margin: unset;
+
+    visibility: visible;
+    background: rgba(0, 0, 0, 0) url("http://web.archive.org/web/20061227222825im_/http://www.youtube.com/img/pic_mycontrolpanel_300x30.png") no-repeat scroll left top;
+
+
+    font-size: 11px;
+    height: 30px;
+    line-height: 30px;
+    top: 112px;
+    left: -168px;
+    width: 300px;
+
+    padding-left: 27px;
+    z-index: 900;
+}
+
+.yt-menulink-menu {}
+
+.yt-menulink-menu a {
+    display: unset;
+    padding: 0;
+}
+
+.yt-menulink-menu span {
+    position: relative;
+    margin-left: 0px;
+}
+.yt-menulink-menu span:after {
+    visibility: visible;
+    content: "-";
+    margin-left: 3px;
+}
+.yt-menulink-menu span:nth-child(1):after {
+    visibility: hidden;
+}
+
+.yt-menulink-menu > span:nth-child(1) > a:nth-child(1) {
+    display: none;
+}
+
+.yt-menulink-menu > span:nth-child(2) > a:nth-child(1) {
+    visibility: hidden;
+}
+.yt-menulink-menu > span:nth-child(2) > a:nth-child(1):after {
+    visibility: visible;
+    content: "Videos";
+    margin-left: -50px;
+}
+} 
 
 .tooltip-wrapper-box {
   position: absolute;
